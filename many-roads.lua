@@ -2,7 +2,6 @@
 print("many-roads v1.0")
 
 local exclude_files = {'many-roads.lua', 'init.lua', 'lib.lua'}
-local scripts = fs_list_files()
 
 local exclude_lookup = {}
 for i = 1, #exclude_files do
@@ -18,7 +17,7 @@ for _, i in ipairs(fs_list_files()) do
     end
 end
 
-scripts = filtered_list
+local scripts = filtered_list
 
 print('-------')
 print('installed iii scripts:')
