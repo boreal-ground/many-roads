@@ -18,7 +18,12 @@ I may add further features in the future.
 
 ## Restart
 
-Do a triple click of the top left key to restart the device and return to many roads. This is done by forcing a OOM error
+Do a triple click of the top left key to restart the device and return to many roads. This is done by forcing a OOM error.
+
+## Version history
+- **v1.2**: Memory optimisations and Restart feature by [Quixotic7](https://github.com/Quixotic7).
+- **v1.1**: Added support for more than 16 scripts.
+- **v1.0**: Initial release.
 
 ## Acknowledgements
 
