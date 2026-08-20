@@ -32,4 +32,4 @@ Particular thanks to tehn for explaining how to retrieve the file listing.
 
 I learned a huge amount about writing lua through reading monome iii and norns scripts generously shared on [lines](https://llllllll.co/).
 
-Memory optimisations and restart featured added by [Quixotic7](https://github.com/Quixotic7).
+Memory optimisations and restart feature added by [Quixotic7](https://github.com/Quixotic7).
