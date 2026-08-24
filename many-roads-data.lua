@@ -26,7 +26,7 @@ MR.has_excluded_prefix = function(filename)
 end
 
 MR.init = function()
-    print("many-roads v1.2")
+    print("many-roads v1.2.1")
 
     local exclude_lookup = {}
     for i = 1, #MR.exclude_files do
@@ -62,10 +62,16 @@ MR.load_print = function(x, y)
     print('loading ' .. i .. ': ' .. MR.scripts[i])
 end
 
-MR.is_valid = function(x,y,z)
-    if z ~= 1 then return false end
-    if #MR.scripts < 1 then return false end
-    local index = MR.coord_to_index(x,y)
-    if MR.scripts[index] ~= nil then return true end
+MR.is_valid = function(x, y, z)
+    if z ~= 1 then
+        return false
+    end
+    if #MR.scripts < 1 then
+        return false
+    end
+    local index = MR.coord_to_index(x, y)
+    if MR.scripts[index] ~= nil then
+        return true
+    end
     return false
 end
