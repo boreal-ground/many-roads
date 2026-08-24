@@ -6,7 +6,11 @@ A simple script switcher / menu system for monome grid iii.
 
 Designed to run on a monome grid with [iii firmware](https://monome.org/docs/iii/) installed.
 
-Connect your monome grid using the [diii](https://monome.org/diii/) browser utility, and upload many-roads.lua. In the left-hand menu locate many-roads.lua, and select **'first'** from the **'...'** menu. See [dii documentation](https://monome.org/docs/iii/diii/) for more guidance on uploading and managing iii scripts.
+Connect to your monome grid using the [diii](https://monome.org/diii/) browser utility, and upload the following files:
+- many-roads.lua
+- many-roads-data.lua
+
+In the left-hand menu locate **many-roads.lua**, and select **'first'** from the **'...'** menu. See [dii documentation](https://monome.org/docs/iii/diii/) for more guidance on uploading and managing iii scripts.
 
 ## In use
 
